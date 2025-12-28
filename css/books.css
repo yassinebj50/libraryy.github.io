@@ -1,0 +1,53 @@
+.book-grid {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px;
+}
+
+.book-card {
+   
+    width: 200px;
+}
+
+.book-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.book-title, .book-author {
+    font-size: 14px;
+    margin: 4px 0;
+    word-wrap: break-word;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+.btn.edit-btn {
+    background: #3498db;
+}
+
+.btn.edit-btn:hover {
+    background: #2978b8;
+}
+
+.btn.delete-btn {
+    background: #e74c3c;
+}
+
+.btn.delete-btn:hover {
+    background: #c0392b;
+}
+.add-back {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}

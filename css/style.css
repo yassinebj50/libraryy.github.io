@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+   
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn{
+    
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.login-btn {
+    
+    background: #3498db;
+}
+
+.login-btn:hover {
+    background: #2978b8;
+}
+
+.signup-btn {
+    background: #27ae60;
+}
+
+.signup-btn:hover {
+    background: #1d8b4c;
+}
+
+.about-btn {
+    background: #8e44ad;
+}
+
+.about-btn:hover {
+    background: #6d2f88;
+}
